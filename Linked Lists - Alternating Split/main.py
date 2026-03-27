@@ -22,7 +22,7 @@ def alternating_split(head):
         Exception: If the input list is empty or contains only one node.
     """
     if head is None or head.next is None:
-        raise Exception("Error")
+        raise Exception
     first_node = head
     second_node = head.next
     context = Context(first_node, second_node)
